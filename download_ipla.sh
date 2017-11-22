@@ -8,7 +8,10 @@
 #notes           :Install wget if you don't have.
 #bash_version    :4.4.12(1)-release
 
-
+if [[ $# -eq 0 ]] ; then
+    echo 'Usage: bash download_ipla.sh url_of_video'
+    exit 0
+fi
 url=$1
 serial=`echo $url | grep -Po "(?<=tv\/)(.*)(?=-odcinek)"`
 odcinek=`echo $url | grep -Eo "(\odcinek-[0-9]+)"`
