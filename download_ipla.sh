@@ -1,9 +1,12 @@
 #!/bin/bash
-
-##
-## https://www.ipla.tv/Sprawiedliwi-wydzial-kryminalny-odcinek-149/vod-10976776
-## ipla://playvod-1|40d6e109cdcaa58ab003c7360d74a418
-## http://getmedia.redefine.pl/vods/get_vod/?cpid=1&ua=mipla/23&media_id=2ddfaa076499524528986c1cb2a59e47
+#title           :download_ipla.sh
+#description     :Bash downloader from ipla.tv
+#author		 :Rexikon
+#date            :2017.11.22
+#version         :0.1    
+#usage		 :bash download_ipla.sh url_of_video
+#notes           :Install wget if you don't have.
+#bash_version    :4.4.12(1)-release
 
 
 url=$1
