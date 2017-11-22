@@ -1,10 +1,10 @@
 #!/bin/bash
 #title           :download_ipla.sh
 #description     :Bash downloader from ipla.tv
-#author		 :Rexikon
+#author	         :Rexikon
 #date            :2017.11.22
 #version         :0.1    
-#usage		 :bash download_ipla.sh url_of_video
+#usage           :bash download_ipla.sh url_of_video
 #notes           :Install wget if you don't have.
 #bash_version    :4.4.12(1)-release
 
