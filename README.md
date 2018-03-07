@@ -1,5 +1,5 @@
 # ipla.tv_downloader
-Bash downloader for ipla.tv
+Bash downloader for series from ipla.tv
 
 It uses only wget, sed, grep and curl.
 
