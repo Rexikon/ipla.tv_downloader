@@ -14,7 +14,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 url=$1
 serial=`echo $url | cut -d'/' -f6`
-odcinek=`curl -s $url | grep -Eo "(\Odcinek-[0-9]+)" | head -n 1`
+odcinek=`curl -s $url | grep -Eo "(\Odcinek-[0-9]+)" | head -n 2 | tail -n 1`
 echo "Pobieramy $odcinek serialu $serial"
 
 
